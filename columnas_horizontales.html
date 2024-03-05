@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>colummnas horinzontales</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap5/boot/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap5/boot/js/bootstrap.min.js"></script>
+	<style>
+		.row{
+			background: #79b493 ;
+			margin-top: 15px;
+		}
+		.columnas{
+			background: #D5F5E3;
+			text-align: center;
+			padding: 10px;
+			border: 1px solid #4d5061;
+			border-radius: 40px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-start">
+			<div class="columnas col-4"><p>columna 1</p> </div>
+			<div class="columnas col-4"><p>columna 2</p></div>
+			<div class="columnas col-3"><p>columna 3</p></div>
+		</div>
+
+		<div class="row justify-content-end">
+			<div class="columnas col-4"><p>columna 1</p></div>
+			<div class="columnas col-4"><p>columna 2</p></div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="columnas col-3"><p>columna 1</p></div>
+			<div class="columnas col-3"><p>columna 2</p></div>
+			<div class="columnas col-3"><p>columna 3</p></div>
+		</div>
+
+		<div class="row justify-content-around">
+			<div class="columnas col-3"><p>columna 1</p></div>
+			<div class="columnas col-3"><p>columna 2</p></div>
+		</div>
+
+		<div class="row justify-content-between">
+			<div class="columnas col-3"><p>columna 1</p></div>
+			<div class="columnas col-3"><p>columna 1</p></div>		
+		</div>
+
+		<div class="row justify-content-evenly">
+			<div class="columnas col-3"><p>columna 1</p></div>
+			<div class="columnas col-3"><p>columna 2</p></div>
+		</div>
+	</div>
+	
+</body>
+</html>
